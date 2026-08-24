@@ -49,7 +49,7 @@ El emprendimiento **TecnoStock** registraba sus existencias mediante planillas m
 2. Iniciar los servicios **Apache** y **MySQL** desde el Panel de Control de XAMPP.
 3. Ingresar a phpMyAdmin (`http://localhost/phpmyadmin`) y crear la base de datos `tecnostock_db`.
 4. Importar o ejecutar el script ubicado en:
-   `db/schema.sql`
+   `schema.sql`
 5. Abrir el navegador e ingresar a:
    `http://localhost/tecnostock/`
 
