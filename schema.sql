@@ -52,7 +52,7 @@ CREATE TABLE movimientos (
 -- Usuario de prueba (Clave: admin123)
 -- Usamos hash nativo de PHP: password_hash('admin123', PASSWORD_BCRYPT)
 INSERT INTO usuarios (nombre, correo, clave, estado) VALUES
-('Administrador TecnoStock', 'admin@tecnostock.cl', '$2y$10$eE0m7h2V8b6wOaW9cT6rDeuUvU/rZ3j5T3fQ.kYv6M5mKj7YyH2q2', 1);
+('Administrador TecnoStock', 'admin@tecnostock.cl', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 1);
 
 -- Categorías iniciales
 INSERT INTO categorias (nombre, descripcion, estado) VALUES
