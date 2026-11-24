@@ -22,8 +22,10 @@ $sql = "SELECT p.*, c.nombre AS categoria_nombre
 $parametros = [];
 
 if (!empty($busqueda)) {
-    $sql .= " AND (p.nombre LIKE :busq OR p.codigo LIKE :busq OR c.nombre LIKE :busq)";
-    $parametros['busq'] = "%$busqueda%";
+    $sql .= " AND (p.nombre LIKE :busq1 OR p.codigo LIKE :busq2 OR c.nombre LIKE :busq3)";
+    $parametros['busq1'] = "%$busqueda%";
+    $parametros['busq2'] = "%$busqueda%";
+    $parametros['busq3'] = "%$busqueda%";
 }
 
 $sql .= " ORDER BY p.id_producto DESC";
