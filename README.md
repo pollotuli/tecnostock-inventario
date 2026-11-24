@@ -55,7 +55,7 @@ El emprendimiento **TecnoStock** registraba sus existencias mediante planillas m
 
 ### Credenciales de Acceso
 * **Correo:** `admin@tecnostock.cl`
-* **Contraseña:** `admin123`
+* **Contraseña:** `password`
 
 ---
 
